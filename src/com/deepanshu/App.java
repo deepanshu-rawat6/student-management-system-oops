@@ -36,7 +36,7 @@ public class App {
         int percentage=sc.nextInt();
         sc.nextLine();
         String query="insert into students values("+sap+",'"+name+"',"+percentage+");";
-        stml.executeUpdate(query);
+        stml.executeUpdate(query); 
         System.out.println("Updated Successfully...");
     }
     static void mainmenu()
